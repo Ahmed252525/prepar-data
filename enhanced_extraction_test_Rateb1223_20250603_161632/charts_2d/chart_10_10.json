@@ -1,0 +1,91 @@
+{
+  "chart_id": "chart_10_10",
+  "slide_number": 10,
+  "chart_type": "COLUMN_CLUSTERED (51)",
+  "is_3d": false,
+  "3d_properties": {},
+  "excel_data": {
+    "sheet_name": "Sheet1",
+    "sheet_index": 0,
+    "rows": 5,
+    "columns": 2,
+    "data": [
+      [
+        "",
+        "Sales"
+      ],
+      [
+        "2 - 4 مرة",
+        "0.47"
+      ],
+      [
+        "5 - 8 مرة",
+        "0.18"
+      ],
+      [
+        "8 - 11 مرة",
+        "0.15"
+      ],
+      [
+        "أكثر من 11 مرة",
+        "0.2"
+      ]
+    ],
+    "analysis": {
+      "has_headers": true,
+      "numeric_columns": [
+        1
+      ],
+      "text_columns": [
+        0
+      ],
+      "potential_categories": [
+        "2 - 4 مرة",
+        "5 - 8 مرة",
+        "8 - 11 مرة",
+        "أكثر من 11 مرة"
+      ],
+      "potential_values": [
+        "0.47",
+        "0.18",
+        "0.15",
+        "0.2"
+      ],
+      "data_structure": "chart_suitable"
+    }
+  },
+  "categories": [
+    "2 - 4 مرة",
+    "5 - 8 مرة",
+    "8 - 11 مرة",
+    "أكثر من 11 مرة"
+  ],
+  "series_data": [
+    {
+      "name": "Sales",
+      "values": [
+        0.47,
+        0.18,
+        0.15,
+        0.2
+      ],
+      "column_index": 1
+    }
+  ],
+  "text_representation": [
+    "CHART START - COLUMN_CLUSTERED (51)",
+    "Categories: 4",
+    "Category: Value (Percentage)",
+    "2 - 4 مرة: 0.47 (47.0%)",
+    "5 - 8 مرة: 0.18 (18.0%)",
+    "8 - 11 مرة: 0.15 (15.0%)",
+    "أكثر من 11 مرة: 0.2 (20.0%)",
+    "CHART END"
+  ],
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32",
+    "excel_index": 9
+  },
+  "visualization_path": "enhanced_extraction_test_Rateb1223_20250603_161632/charts_2d/chart_10_10.png"
+}

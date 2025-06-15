@@ -1,0 +1,193 @@
+{
+  "slide_number": 9,
+  "slide_title": "9",
+  "text_content": [
+    "9",
+    "ثالثاً: العوامل الاجتماعية Social:",
+    "تطور عدد السكان بالمنطقة الشرقية:\nتستحوذ المنطقة الشرقية على نحو 15% من إجمالي سكان المملكة حيث تحتل المرتبة الثالثة بعد الرياض ومكة المكرمة. وقد بلغ إجمالي عدد سكان المنطقة الشرقية نحو 5 مليون نسمة بمنتصف عام 2018، لتحقق نحو 2.517% معدل نمو سنوي في المتوسط خلال  الفترة من عام 2010 - 2018.",
+    "التوزيع الجغرافي للسكان بالمنطقة الشرقية: \nيتمركز نحو 50% من السكان بالمنطقة الشرقية في محافظتي الإحساء والدمام بنحو 1.27 مليون ، 1.24 مليون نسمة علي التوالي. كما يلي:",
+    "التوزيع النوعي والعمري للسكان بالمنطقة الشرقية:\nينقسم سكان المنطقة الشرقية ديموجرافياً وفقاً للجنسية والنوع والفئات العمرية عام 2018، كما يلي:",
+    "الجنسية",
+    "النوع",
+    "المصدر: مصلحة الإحصاء العامة.",
+    "التوزيع العمري لسكان المنطقة",
+    "ذكور\n60%",
+    "إناث\n40%",
+    "غير سعودي\n36%",
+    "سعودي\n64%",
+    "(PESTEL Analysis)"
+  ],
+  "charts": [
+    {
+      "chart_id": "chart_9_8",
+      "slide_number": 9,
+      "chart_type": "COLUMN_CLUSTERED (51)",
+      "is_3d": false,
+      "3d_properties": {},
+      "excel_data": {
+        "sheet_name": "Sheet1",
+        "sheet_index": 0,
+        "rows": 4,
+        "columns": 2,
+        "data": [
+          [
+            "",
+            "Sales"
+          ],
+          [
+            "2 - 4 مرة",
+            "0.72"
+          ],
+          [
+            "5 - 8 مرة",
+            "0.17"
+          ],
+          [
+            "8 - 11 مرة",
+            "0.11"
+          ]
+        ],
+        "analysis": {
+          "has_headers": true,
+          "numeric_columns": [
+            1
+          ],
+          "text_columns": [
+            0
+          ],
+          "potential_categories": [
+            "2 - 4 مرة",
+            "5 - 8 مرة",
+            "8 - 11 مرة"
+          ],
+          "potential_values": [
+            "0.72",
+            "0.17",
+            "0.11"
+          ],
+          "data_structure": "chart_suitable"
+        }
+      },
+      "categories": [
+        "2 - 4 مرة",
+        "5 - 8 مرة",
+        "8 - 11 مرة"
+      ],
+      "series_data": [
+        {
+          "name": "Sales",
+          "values": [
+            0.72,
+            0.17,
+            0.11
+          ],
+          "column_index": 1
+        }
+      ],
+      "text_representation": [
+        "CHART START - COLUMN_CLUSTERED (51)",
+        "Categories: 3",
+        "Category: Value (Percentage)",
+        "2 - 4 مرة: 0.72 (72.0%)",
+        "5 - 8 مرة: 0.17 (17.0%)",
+        "8 - 11 مرة: 0.11 (11.0%)",
+        "CHART END"
+      ],
+      "extraction_metadata": {
+        "extracted_by": "Rateb1223",
+        "extraction_time": "2025-06-03T16:16:32",
+        "excel_index": 7
+      },
+      "visualization_path": "enhanced_extraction_test_Rateb1223_20250603_161632/charts_2d/chart_9_8.png",
+      "image_path": null
+    },
+    {
+      "chart_id": "chart_9_9",
+      "slide_number": 9,
+      "chart_type": "AREA_STACKED (76)",
+      "is_3d": false,
+      "3d_properties": {},
+      "excel_data": {
+        "sheet_name": "Sheet1",
+        "sheet_index": 0,
+        "rows": 4,
+        "columns": 2,
+        "data": [
+          [
+            "",
+            "Sales"
+          ],
+          [
+            "2 - 4 مرة",
+            "0.74"
+          ],
+          [
+            "5 - 8 مرة",
+            "0.21"
+          ],
+          [
+            "أكثر من 11 مرة",
+            "0.05"
+          ]
+        ],
+        "analysis": {
+          "has_headers": true,
+          "numeric_columns": [
+            1
+          ],
+          "text_columns": [
+            0
+          ],
+          "potential_categories": [
+            "2 - 4 مرة",
+            "5 - 8 مرة",
+            "أكثر من 11 مرة"
+          ],
+          "potential_values": [
+            "0.74",
+            "0.21",
+            "0.05"
+          ],
+          "data_structure": "chart_suitable"
+        }
+      },
+      "categories": [
+        "2 - 4 مرة",
+        "5 - 8 مرة",
+        "أكثر من 11 مرة"
+      ],
+      "series_data": [
+        {
+          "name": "Sales",
+          "values": [
+            0.74,
+            0.21,
+            0.05
+          ],
+          "column_index": 1
+        }
+      ],
+      "text_representation": [
+        "CHART START - AREA_STACKED (76)",
+        "Categories: 3",
+        "Category: Value (Percentage)",
+        "2 - 4 مرة: 0.74 (74.0%)",
+        "5 - 8 مرة: 0.21 (21.0%)",
+        "أكثر من 11 مرة: 0.05 (5.0%)",
+        "CHART END"
+      ],
+      "extraction_metadata": {
+        "extracted_by": "Rateb1223",
+        "extraction_time": "2025-06-03T16:16:32",
+        "excel_index": 8
+      },
+      "visualization_path": "enhanced_extraction_test_Rateb1223_20250603_161632/charts_2d/chart_9_9.png",
+      "image_path": null
+    }
+  ],
+  "tables": [],
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32"
+  }
+}

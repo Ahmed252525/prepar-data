@@ -1,0 +1,61 @@
+{
+  "file_name": "Microsoft_Excel_Worksheet14.xlsx",
+  "file_index": 7,
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32",
+    "file_size": 9591
+  },
+  "sheets": [
+    {
+      "sheet_name": "Sheet1",
+      "sheet_index": 0,
+      "rows": 5,
+      "columns": 2,
+      "data": [
+        [
+          "",
+          "Sales"
+        ],
+        [
+          "2 - 4 مرة",
+          "0.34"
+        ],
+        [
+          "5 - 8 مرة",
+          "0.28"
+        ],
+        [
+          "8 - 11 مرة",
+          "0.14"
+        ],
+        [
+          "أكثر من 11 مرة",
+          "0.24"
+        ]
+      ],
+      "analysis": {
+        "has_headers": true,
+        "numeric_columns": [
+          1
+        ],
+        "text_columns": [
+          0
+        ],
+        "potential_categories": [
+          "2 - 4 مرة",
+          "5 - 8 مرة",
+          "8 - 11 مرة",
+          "أكثر من 11 مرة"
+        ],
+        "potential_values": [
+          "0.34",
+          "0.28",
+          "0.14",
+          "0.24"
+        ],
+        "data_structure": "chart_suitable"
+      }
+    }
+  ]
+}

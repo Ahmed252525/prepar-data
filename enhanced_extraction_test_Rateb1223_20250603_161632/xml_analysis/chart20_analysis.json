@@ -1,0 +1,17 @@
+{
+  "filename": "chart20.xml",
+  "is_3d": true,
+  "chart_type": "pie3DChart",
+  "3d_properties": {
+    "rotX": "30",
+    "rotY": "0",
+    "depthPercent": "100",
+    "rAngAx": "0"
+  },
+  "series_count": 1,
+  "categories_count": 1,
+  "extraction_metadata": {
+    "analyzed_by": "Rateb1223",
+    "analysis_time": "2025-06-03T16:16:32"
+  }
+}

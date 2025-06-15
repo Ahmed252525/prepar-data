@@ -1,0 +1,97 @@
+{
+  "file_name": "Microsoft_Excel_Worksheet6.xlsx",
+  "file_index": 18,
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32",
+    "file_size": 9094
+  },
+  "sheets": [
+    {
+      "sheet_name": "Sheet1",
+      "sheet_index": 0,
+      "rows": 8,
+      "columns": 4,
+      "data": [
+        [
+          "",
+          "Series 1",
+          "Series 2",
+          "Series 3"
+        ],
+        [
+          "الرياض",
+          "23",
+          "2.4",
+          "2"
+        ],
+        [
+          "المنطقة الشرقية",
+          "6",
+          "4.4",
+          "2"
+        ],
+        [
+          "المدينة المنورة",
+          "5",
+          "1.8",
+          "3"
+        ],
+        [
+          "مكة المكرمة",
+          "3",
+          "2.8",
+          "5"
+        ],
+        [
+          "الحائل",
+          "2",
+          "",
+          ""
+        ],
+        [
+          "تبوك",
+          "2",
+          "",
+          ""
+        ],
+        [
+          "الجوف",
+          "2",
+          "",
+          ""
+        ]
+      ],
+      "analysis": {
+        "has_headers": true,
+        "numeric_columns": [
+          1
+        ],
+        "text_columns": [
+          0,
+          2,
+          3
+        ],
+        "potential_categories": [
+          "الرياض",
+          "المنطقة الشرقية",
+          "المدينة المنورة",
+          "مكة المكرمة",
+          "الحائل",
+          "تبوك",
+          "الجوف"
+        ],
+        "potential_values": [
+          "23",
+          "6",
+          "5",
+          "3",
+          "2",
+          "2",
+          "2"
+        ],
+        "data_structure": "chart_suitable"
+      }
+    }
+  ]
+}

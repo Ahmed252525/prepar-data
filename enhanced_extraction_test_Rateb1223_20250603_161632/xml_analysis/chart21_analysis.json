@@ -1,0 +1,16 @@
+{
+  "filename": "chart21.xml",
+  "is_3d": true,
+  "chart_type": "bar3DChart",
+  "3d_properties": {
+    "rotX": "15",
+    "rotY": "20",
+    "rAngAx": "1"
+  },
+  "series_count": 1,
+  "categories_count": 1,
+  "extraction_metadata": {
+    "analyzed_by": "Rateb1223",
+    "analysis_time": "2025-06-03T16:16:32"
+  }
+}

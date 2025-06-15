@@ -1,0 +1,90 @@
+{
+  "file_name": "Microsoft_Excel_Worksheet20.xlsx",
+  "file_index": 14,
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32",
+    "file_size": 8943
+  },
+  "sheets": [
+    {
+      "sheet_name": "Sheet1",
+      "sheet_index": 0,
+      "rows": 12,
+      "columns": 2,
+      "data": [
+        [
+          "",
+          "Sales"
+        ],
+        [
+          "سياحة دينية",
+          "0.23"
+        ],
+        [
+          "سياحة أعمال",
+          "0.03"
+        ],
+        [
+          "زيارة أقارب",
+          "0.28"
+        ],
+        [
+          "سياحة ترفيهية",
+          "0.44"
+        ],
+        [
+          "أخري",
+          "0.03"
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          "%"
+        ]
+      ],
+      "analysis": {
+        "has_headers": true,
+        "numeric_columns": [],
+        "text_columns": [
+          0,
+          1
+        ],
+        "potential_categories": [
+          "سياحة دينية",
+          "سياحة أعمال",
+          "زيارة أقارب",
+          "سياحة ترفيهية",
+          "أخري",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "potential_values": [],
+        "data_structure": "simple_table"
+      }
+    }
+  ]
+}

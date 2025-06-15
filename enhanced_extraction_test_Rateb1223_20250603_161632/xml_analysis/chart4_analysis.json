@@ -1,0 +1,12 @@
+{
+  "filename": "chart4.xml",
+  "is_3d": false,
+  "chart_type": "barChart",
+  "3d_properties": {},
+  "series_count": 2,
+  "categories_count": 2,
+  "extraction_metadata": {
+    "analyzed_by": "Rateb1223",
+    "analysis_time": "2025-06-03T16:16:32"
+  }
+}

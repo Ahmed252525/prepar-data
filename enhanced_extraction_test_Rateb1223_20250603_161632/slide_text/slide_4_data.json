@@ -1,0 +1,153 @@
+{
+  "slide_number": 4,
+  "slide_title": "4",
+  "text_content": [
+    "4",
+    "يتبع/ 3. تقدير الطلب والإيراد",
+    "تطور الإيرادات"
+  ],
+  "charts": [
+    {
+      "chart_id": "chart_4_4",
+      "slide_number": 4,
+      "chart_type": "LINE_MARKERS (65)",
+      "is_3d": false,
+      "3d_properties": {},
+      "excel_data": {
+        "sheet_name": "Sheet1",
+        "sheet_index": 0,
+        "rows": 10,
+        "columns": 2,
+        "data": [
+          [
+            "",
+            "Series 1"
+          ],
+          [
+            "يناير",
+            "159458"
+          ],
+          [
+            "فبراير",
+            "593566"
+          ],
+          [
+            "مارس",
+            "1290159"
+          ],
+          [
+            "أبريل",
+            "1307740"
+          ],
+          [
+            "مايو",
+            "577380"
+          ],
+          [
+            "يونيو",
+            "1262816"
+          ],
+          [
+            "يوليه",
+            "1404091"
+          ],
+          [
+            "أغسطس",
+            "1294038"
+          ],
+          [
+            "سبتمبر",
+            "1442286"
+          ]
+        ],
+        "analysis": {
+          "has_headers": true,
+          "numeric_columns": [
+            1
+          ],
+          "text_columns": [
+            0
+          ],
+          "potential_categories": [
+            "يناير",
+            "فبراير",
+            "مارس",
+            "أبريل",
+            "مايو",
+            "يونيو",
+            "يوليه",
+            "أغسطس",
+            "سبتمبر"
+          ],
+          "potential_values": [
+            "159458",
+            "593566",
+            "1290159",
+            "1307740",
+            "577380",
+            "1262816",
+            "1404091",
+            "1294038",
+            "1442286"
+          ],
+          "data_structure": "chart_suitable"
+        }
+      },
+      "categories": [
+        "يناير",
+        "فبراير",
+        "مارس",
+        "أبريل",
+        "مايو",
+        "يونيو",
+        "يوليه",
+        "أغسطس",
+        "سبتمبر"
+      ],
+      "series_data": [
+        {
+          "name": "Series 1",
+          "values": [
+            159458.0,
+            593566.0,
+            1290159.0,
+            1307740.0,
+            577380.0,
+            1262816.0,
+            1404091.0,
+            1294038.0,
+            1442286.0
+          ],
+          "column_index": 1
+        }
+      ],
+      "text_representation": [
+        "CHART START - LINE_MARKERS (65)",
+        "Categories: 9",
+        "Category: Value (Percentage)",
+        "يناير: 159,458 (1.71%)",
+        "فبراير: 593,566 (6.36%)",
+        "مارس: 1,290,159 (13.83%)",
+        "أبريل: 1,307,740 (14.01%)",
+        "مايو: 577,380 (6.19%)",
+        "يونيو: 1,262,816 (13.53%)",
+        "يوليه: 1,404,091 (15.05%)",
+        "أغسطس: 1,294,038 (13.87%)",
+        "سبتمبر: 1,442,286 (15.46%)",
+        "CHART END"
+      ],
+      "extraction_metadata": {
+        "extracted_by": "Rateb1223",
+        "extraction_time": "2025-06-03T16:16:32",
+        "excel_index": 3
+      },
+      "visualization_path": "enhanced_extraction_test_Rateb1223_20250603_161632/charts_2d/chart_4_4.png",
+      "image_path": null
+    }
+  ],
+  "tables": [],
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32"
+  }
+}

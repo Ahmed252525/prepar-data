@@ -1,0 +1,82 @@
+{
+  "chart_id": "chart_9_9",
+  "slide_number": 9,
+  "chart_type": "AREA_STACKED (76)",
+  "is_3d": false,
+  "3d_properties": {},
+  "excel_data": {
+    "sheet_name": "Sheet1",
+    "sheet_index": 0,
+    "rows": 4,
+    "columns": 2,
+    "data": [
+      [
+        "",
+        "Sales"
+      ],
+      [
+        "2 - 4 مرة",
+        "0.74"
+      ],
+      [
+        "5 - 8 مرة",
+        "0.21"
+      ],
+      [
+        "أكثر من 11 مرة",
+        "0.05"
+      ]
+    ],
+    "analysis": {
+      "has_headers": true,
+      "numeric_columns": [
+        1
+      ],
+      "text_columns": [
+        0
+      ],
+      "potential_categories": [
+        "2 - 4 مرة",
+        "5 - 8 مرة",
+        "أكثر من 11 مرة"
+      ],
+      "potential_values": [
+        "0.74",
+        "0.21",
+        "0.05"
+      ],
+      "data_structure": "chart_suitable"
+    }
+  },
+  "categories": [
+    "2 - 4 مرة",
+    "5 - 8 مرة",
+    "أكثر من 11 مرة"
+  ],
+  "series_data": [
+    {
+      "name": "Sales",
+      "values": [
+        0.74,
+        0.21,
+        0.05
+      ],
+      "column_index": 1
+    }
+  ],
+  "text_representation": [
+    "CHART START - AREA_STACKED (76)",
+    "Categories: 3",
+    "Category: Value (Percentage)",
+    "2 - 4 مرة: 0.74 (74.0%)",
+    "5 - 8 مرة: 0.21 (21.0%)",
+    "أكثر من 11 مرة: 0.05 (5.0%)",
+    "CHART END"
+  ],
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32",
+    "excel_index": 8
+  },
+  "visualization_path": "enhanced_extraction_test_Rateb1223_20250603_161632/charts_2d/chart_9_9.png"
+}

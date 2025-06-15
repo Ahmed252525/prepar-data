@@ -1,0 +1,33 @@
+{
+  "extraction_summary": {
+    "source_file": "test.pptx",
+    "source_path": "/home/ahmed-hamdy/prepar-data/test.pptx",
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32",
+    "extractor_version": "enhanced_3d_v2.0"
+  },
+  "statistics": {
+    "total_charts": 13,
+    "charts_3d": 2,
+    "charts_2d": 11,
+    "tables": 1,
+    "excel_files": 21,
+    "xml_charts_analyzed": 62,
+    "errors": 11
+  },
+  "charts_breakdown": {
+    "chart_types": {
+      "COLUMN_CLUSTERED (51)": 7,
+      "PIE (5)": 1,
+      "LINE_MARKERS (65)": 2,
+      "BAR_CLUSTERED (57)": 1,
+      "AREA_STACKED (76)": 1,
+      "DOUGHNUT (-4120)": 1
+    },
+    "3d_chart_types": {
+      "COLUMN_CLUSTERED (51)": 1,
+      "PIE (5)": 1
+    },
+    "charts_with_excel_data": 13
+  }
+}

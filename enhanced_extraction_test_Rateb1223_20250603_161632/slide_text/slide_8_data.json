@@ -1,0 +1,110 @@
+{
+  "slide_number": 8,
+  "slide_title": "8",
+  "text_content": [
+    "8",
+    "التوزيع الجغرافي للخدمات الصحية: \nوفقاً لتوزيع عدد الأسرة بالمنطقة الشرقية، يتبين إستحواذ الدمام والإحساء والخبر على أعلى طاقة سريرية بالمنطقة بنحو 3933 بالدمام ونحو 3019 سرير لكلاُ من الإحساء والخبر على التوالي، كما يتبين إستحواذ القطاع الخاص على عدد كبير من الطاقة السريرية بالخبر بنحو 75% من الطاقة السريرية بالمحافظة، وذلك كما يلي:",
+    "المصدر: التقرير السنوي لوزارة الصحة 2018",
+    "تابع/ثانياً: العوامل الإقتصادية  Economy:",
+    "(PESTEL Analysis)"
+  ],
+  "charts": [
+    {
+      "chart_id": "chart_8_7",
+      "slide_number": 8,
+      "chart_type": "COLUMN_CLUSTERED (51)",
+      "is_3d": false,
+      "3d_properties": {},
+      "excel_data": {
+        "sheet_name": "Sheet1",
+        "sheet_index": 0,
+        "rows": 5,
+        "columns": 2,
+        "data": [
+          [
+            "",
+            "Sales"
+          ],
+          [
+            "2 - 4 مرة",
+            "0.34"
+          ],
+          [
+            "5 - 8 مرة",
+            "0.28"
+          ],
+          [
+            "8 - 11 مرة",
+            "0.14"
+          ],
+          [
+            "أكثر من 11 مرة",
+            "0.24"
+          ]
+        ],
+        "analysis": {
+          "has_headers": true,
+          "numeric_columns": [
+            1
+          ],
+          "text_columns": [
+            0
+          ],
+          "potential_categories": [
+            "2 - 4 مرة",
+            "5 - 8 مرة",
+            "8 - 11 مرة",
+            "أكثر من 11 مرة"
+          ],
+          "potential_values": [
+            "0.34",
+            "0.28",
+            "0.14",
+            "0.24"
+          ],
+          "data_structure": "chart_suitable"
+        }
+      },
+      "categories": [
+        "2 - 4 مرة",
+        "5 - 8 مرة",
+        "8 - 11 مرة",
+        "أكثر من 11 مرة"
+      ],
+      "series_data": [
+        {
+          "name": "Sales",
+          "values": [
+            0.34,
+            0.28,
+            0.14,
+            0.24
+          ],
+          "column_index": 1
+        }
+      ],
+      "text_representation": [
+        "CHART START - COLUMN_CLUSTERED (51)",
+        "Categories: 4",
+        "Category: Value (Percentage)",
+        "2 - 4 مرة: 0.34 (34.0%)",
+        "5 - 8 مرة: 0.28 (28.0%)",
+        "8 - 11 مرة: 0.14 (14.0%)",
+        "أكثر من 11 مرة: 0.24 (24.0%)",
+        "CHART END"
+      ],
+      "extraction_metadata": {
+        "extracted_by": "Rateb1223",
+        "extraction_time": "2025-06-03T16:16:32",
+        "excel_index": 6
+      },
+      "visualization_path": "enhanced_extraction_test_Rateb1223_20250603_161632/charts_2d/chart_8_7.png",
+      "image_path": null
+    }
+  ],
+  "tables": [],
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32"
+  }
+}

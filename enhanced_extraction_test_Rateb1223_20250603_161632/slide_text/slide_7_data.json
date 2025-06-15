@@ -1,0 +1,111 @@
+{
+  "slide_number": 7,
+  "slide_title": "7",
+  "text_content": [
+    "تحليل سلوكيات العملاء المستهدفين\n\n(Consumer Behavior)",
+    "7",
+    "من حيث أفضل المستشفيات التي تعاملوا معها خلال السنة الماضية.",
+    "قام فريق البحث الميداني بشركة إنماء للإستشارات بإجراء المقابلات الميدانية المتعمقة (IDI’s) مع عينة مكونة من (30) مفردة من العملاء المستهدفين للمستشفى والذين يتعاملون حالياً مع مستشفيات/ مجمعات/مستوصفات طبية منافسة بغرض فهم وتحليل سلوكيات هذه الشريحة وتحديد الآليات التسويقية الفعالة لجذب واستهداف هذه العينة",
+    "الأرقام بالمفردة"
+  ],
+  "charts": [
+    {
+      "chart_id": "chart_7_6",
+      "slide_number": 7,
+      "chart_type": "BAR_CLUSTERED (57)",
+      "is_3d": false,
+      "3d_properties": {},
+      "excel_data": {
+        "sheet_name": "Sheet1",
+        "sheet_index": 0,
+        "rows": 5,
+        "columns": 2,
+        "data": [
+          [
+            "",
+            "Sales"
+          ],
+          [
+            "2 - 4 مرة",
+            "0.43"
+          ],
+          [
+            "5 - 8 مرة",
+            "0.18"
+          ],
+          [
+            "8 - 11 مرة",
+            "0.13"
+          ],
+          [
+            "أكثر من 11 مرة",
+            "0.26"
+          ]
+        ],
+        "analysis": {
+          "has_headers": true,
+          "numeric_columns": [
+            1
+          ],
+          "text_columns": [
+            0
+          ],
+          "potential_categories": [
+            "2 - 4 مرة",
+            "5 - 8 مرة",
+            "8 - 11 مرة",
+            "أكثر من 11 مرة"
+          ],
+          "potential_values": [
+            "0.43",
+            "0.18",
+            "0.13",
+            "0.26"
+          ],
+          "data_structure": "chart_suitable"
+        }
+      },
+      "categories": [
+        "2 - 4 مرة",
+        "5 - 8 مرة",
+        "8 - 11 مرة",
+        "أكثر من 11 مرة"
+      ],
+      "series_data": [
+        {
+          "name": "Sales",
+          "values": [
+            0.43,
+            0.18,
+            0.13,
+            0.26
+          ],
+          "column_index": 1
+        }
+      ],
+      "text_representation": [
+        "CHART START - BAR_CLUSTERED (57)",
+        "Categories: 4",
+        "Category: Value (Percentage)",
+        "2 - 4 مرة: 0.43 (43.0%)",
+        "5 - 8 مرة: 0.18 (18.0%)",
+        "8 - 11 مرة: 0.13 (13.0%)",
+        "أكثر من 11 مرة: 0.26 (26.0%)",
+        "CHART END"
+      ],
+      "extraction_metadata": {
+        "extracted_by": "Rateb1223",
+        "extraction_time": "2025-06-03T16:16:32",
+        "excel_index": 5
+      },
+      "visualization_path": "enhanced_extraction_test_Rateb1223_20250603_161632/charts_2d/chart_7_6.png",
+      "image_path": null,
+      "table_bar_labels": []
+    }
+  ],
+  "tables": [],
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "file_name": "Microsoft_Excel_Worksheet3.xlsx",
+  "file_index": 15,
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32",
+    "file_size": 9127
+  },
+  "sheets": [
+    {
+      "sheet_name": "Sheet1",
+      "sheet_index": 0,
+      "rows": 5,
+      "columns": 2,
+      "data": [
+        [
+          "",
+          "Column1"
+        ],
+        [
+          "2017",
+          "10758615.250000002"
+        ],
+        [
+          "2018",
+          "9757543.639999999"
+        ],
+        [
+          "2019",
+          "11029371.43"
+        ],
+        [
+          "2020",
+          "12351570.080000002"
+        ]
+      ],
+      "analysis": {
+        "has_headers": true,
+        "numeric_columns": [
+          0,
+          1
+        ],
+        "text_columns": [],
+        "potential_categories": [],
+        "potential_values": [
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "10758615.250000002",
+          "9757543.639999999",
+          "11029371.43",
+          "12351570.080000002"
+        ],
+        "data_structure": "multi_series"
+      }
+    }
+  ]
+}

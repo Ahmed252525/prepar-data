@@ -1,0 +1,91 @@
+{
+  "file_name": "Microsoft_Excel_Worksheet11.xlsx",
+  "file_index": 4,
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32",
+    "file_size": 10133
+  },
+  "sheets": [
+    {
+      "sheet_name": "Sheet1",
+      "sheet_index": 0,
+      "rows": 10,
+      "columns": 2,
+      "data": [
+        [
+          "",
+          "Series 1"
+        ],
+        [
+          "يناير",
+          "159458"
+        ],
+        [
+          "فبراير",
+          "593566"
+        ],
+        [
+          "مارس",
+          "1290159"
+        ],
+        [
+          "أبريل",
+          "1307740"
+        ],
+        [
+          "مايو",
+          "577380"
+        ],
+        [
+          "يونيو",
+          "1262816"
+        ],
+        [
+          "يوليه",
+          "1404091"
+        ],
+        [
+          "أغسطس",
+          "1294038"
+        ],
+        [
+          "سبتمبر",
+          "1442286"
+        ]
+      ],
+      "analysis": {
+        "has_headers": true,
+        "numeric_columns": [
+          1
+        ],
+        "text_columns": [
+          0
+        ],
+        "potential_categories": [
+          "يناير",
+          "فبراير",
+          "مارس",
+          "أبريل",
+          "مايو",
+          "يونيو",
+          "يوليه",
+          "أغسطس",
+          "سبتمبر"
+        ],
+        "potential_values": [
+          "159458",
+          "593566",
+          "1290159",
+          "1307740",
+          "577380",
+          "1262816",
+          "1404091",
+          "1294038",
+          "1442286"
+        ],
+        "data_structure": "chart_suitable"
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "file_name": "Microsoft_Excel_Worksheet9.xlsx",
+  "file_index": 21,
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32",
+    "file_size": 9062
+  },
+  "sheets": [
+    {
+      "sheet_name": "Sheet1",
+      "sheet_index": 0,
+      "rows": 9,
+      "columns": 2,
+      "data": [
+        [
+          "",
+          "Series 1"
+        ],
+        [
+          "0-15",
+          "0.24"
+        ],
+        [
+          "15-30",
+          "0.25"
+        ],
+        [
+          "30-45",
+          "0.32"
+        ],
+        [
+          "45-60",
+          "0.15"
+        ],
+        [
+          "60+",
+          "0.04"
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          ""
+        ],
+        [
+          "",
+          "To resize chart data range, drag lower right corner of range."
+        ]
+      ],
+      "analysis": {
+        "has_headers": true,
+        "numeric_columns": [],
+        "text_columns": [
+          0,
+          1
+        ],
+        "potential_categories": [
+          "0-15",
+          "15-30",
+          "30-45",
+          "45-60",
+          "60+",
+          "",
+          "",
+          ""
+        ],
+        "potential_values": [],
+        "data_structure": "simple_table"
+      }
+    }
+  ]
+}

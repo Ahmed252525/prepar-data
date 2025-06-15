@@ -1252,6 +1252,60 @@ class Enhanced3DPowerPointExtractor:
             print(f"🧹 Cleaned up temporary files")
         except Exception as e:
             print(f"⚠️  Could not clean up temporary files: {e}")
+    
+    def save_slides_as_markdown(self):
+        """
+        Save each slide's extracted content as a Markdown file (one file per slide).
+        """
+        md_dir = os.path.join(self.output_dir, "markdown_slides")
+        os.makedirs(md_dir, exist_ok=True)
+
+        slide_files = sorted([
+            f for f in os.listdir(self.dirs['slide_text'])
+            if f.startswith("slide_") and f.endswith("_data.json")
+        ], key=lambda x: int(x.split('_')[1]))
+
+        for slide_json in slide_files:
+            slide_num = slide_json.split('_')[1]
+            with open(os.path.join(self.dirs['slide_text'], slide_json), encoding='utf-8') as f:
+                slide_data = json.load(f)
+
+            lines = [f"# Slide {slide_num}: {slide_data.get('slide_title', '')}\n"]
+
+            # Text content
+            for text in slide_data.get('text_content', []):
+                lines.append(text)
+                lines.append("")
+
+            # Tables
+            for table in slide_data.get('tables', []):
+                lines.append("## Table")
+                if 'headers' in table and table['headers']:
+                    lines.append('| ' + ' | '.join(table['headers']) + ' |')
+                    lines.append('| ' + ' | '.join(['---'] * len(table['headers'])) + ' |')
+                    for row in table.get('data', []):
+                        row_vals = [str(row.get(h, '')) for h in table['headers']]
+                        lines.append('| ' + ' | '.join(row_vals) + ' |')
+                lines.append("")
+
+            # Charts
+            for chart in slide_data.get('charts', []):
+                lines.append(f"## Chart ({chart.get('chart_type', '')})")
+                if chart.get('categories') and chart.get('series_data'):
+                    for series in chart['series_data']:
+                        lines.append(f"**{series.get('name', 'Series')}**")
+                        if chart['categories']:
+                            lines.append('| Category | Value |')
+                            lines.append('|---|---|')
+                            for cat, val in zip(chart['categories'], series.get('values', [])):
+                                lines.append(f'| {cat} | {val} |')
+                        lines.append("")
+                lines.append("")
+
+            md_path = os.path.join(md_dir, f"slide_{slide_num}.md")
+            with open(md_path, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(lines))
+            print(f"✅ Saved Markdown: {md_path}")
 
 # Main execution function
 def run_enhanced_extraction(pptx_path=None, user_login="Rateb1223"):
@@ -1280,10 +1334,14 @@ if __name__ == "__main__":
     print(f"📍 Working Directory: {os.getcwd()}")
     
     # Look for PowerPoint files
-    pptx_files = [f for f in os.listdir('.') if f.endswith(('.pptx', '.ppt', '.potx'))]
-    
+    pptx_input_dir = '/home/ahmed-hamdy/prepar-data/inmaa_pptx'
+    pptx_files = [os.path.join(pptx_input_dir, f) for f in os.listdir(pptx_input_dir) if f.endswith(('.pptx', '.ppt', '.potx'))]
+
+    markdown_out_dir = os.path.join(os.getcwd(), "pptx_markdown_split_slides")
+    os.makedirs(markdown_out_dir, exist_ok=True)
+
     if not pptx_files:
-        print("\n❌ No PowerPoint files found in current directory")
+        print("\n❌ No PowerPoint files found in input directory")
         print("📝 Please add PowerPoint files to test the enhanced extractor")
         print("\n📋 Features of this enhanced extractor:")
         print("  ✅ Advanced 3D chart detection and analysis")
@@ -1297,30 +1355,25 @@ if __name__ == "__main__":
         print(f"\n🔍 Found {len(pptx_files)} PowerPoint files:")
         for i, file in enumerate(pptx_files, 1):
             print(f"  {i}. {file}")
-        
-        # Process all files or first file
-        if len(pptx_files) == 1:
-            selected_file = pptx_files[0]
-        else:
-            # For demo, process first file
-            selected_file = pptx_files[0]
-            print(f"\n📄 Processing first file: {selected_file}")
-        
-        # Run enhanced extraction
-        result = run_enhanced_extraction(selected_file, user_login)
-        
-        if result:
-            print(f"\n🎉 Enhanced extraction completed successfully!")
-            print(f"📁 Check the output directory: {result}")
-            print(f"\n📋 Generated content:")
-            print(f"  - 3D chart visualizations and data")
-            print(f"  - Excel data extraction and analysis")
-            print(f"  - XML-based 3D properties analysis")
-            print(f"  - Comprehensive analysis reports")
-            print(f"  - Structured slide text extraction")
-            print(f"  - Error logs and debugging information")
-        else:
-            print(f"\n❌ Enhanced extraction failed!")
+
+        for pptx_file in pptx_files:
+            print(f"\n📄 Processing file: {pptx_file}")
+            extractor = Enhanced3DPowerPointExtractor(pptx_file, user_login)
+            extractor.extract_all()
+            # Save slides as markdown in a subfolder for each pptx
+            extractor.save_slides_as_markdown()
+            # Move/copy markdown files to the global output folder
+            src_md_dir = os.path.join(extractor.output_dir, "markdown_slides")
+            dst_md_dir = os.path.join(markdown_out_dir, Path(pptx_file).stem)
+            os.makedirs(dst_md_dir, exist_ok=True)
+            for md_file in os.listdir(src_md_dir):
+                src_file = os.path.join(src_md_dir, md_file)
+                dst_file = os.path.join(dst_md_dir, md_file)
+                import shutil
+                shutil.copy2(src_file, dst_file)
+            print(f"✅ Markdown slides for {pptx_file} saved to {dst_md_dir}")
+
+        print(f"\n🎉 All slides exported as markdown in: {markdown_out_dir}")
 
 
 
@@ -1329,4 +1382,3 @@ if __name__ == "__main__":
 
 
 
-            

@@ -1,0 +1,142 @@
+{
+  "chart_id": "chart_5_5",
+  "slide_number": 5,
+  "chart_type": "COLUMN_CLUSTERED (51)",
+  "is_3d": false,
+  "3d_properties": {},
+  "excel_data": {
+    "sheet_name": "Sheet1",
+    "sheet_index": 0,
+    "rows": 7,
+    "columns": 4,
+    "data": [
+      [
+        "",
+        "Series 1",
+        "Series 2",
+        "Series 3"
+      ],
+      [
+        "من يناير - أكتوبر 2019",
+        "-0.0144",
+        "2.4",
+        "2"
+      ],
+      [
+        "2018",
+        "0.0243",
+        "4.4",
+        "2"
+      ],
+      [
+        "2017",
+        "-0.0023",
+        "1.8",
+        "3"
+      ],
+      [
+        "2016",
+        "0.0349",
+        "2.8",
+        "5"
+      ],
+      [
+        "2015",
+        "0.022",
+        "",
+        ""
+      ],
+      [
+        "2014",
+        "0.02725",
+        "",
+        ""
+      ]
+    ],
+    "analysis": {
+      "has_headers": true,
+      "numeric_columns": [
+        0,
+        1
+      ],
+      "text_columns": [
+        2,
+        3
+      ],
+      "potential_categories": [],
+      "potential_values": [
+        "من يناير - أكتوبر 2019",
+        "2018",
+        "2017",
+        "2016",
+        "2015",
+        "2014",
+        "-0.0144",
+        "0.0243",
+        "-0.0023",
+        "0.0349",
+        "0.022",
+        "0.02725"
+      ],
+      "data_structure": "chart_suitable"
+    }
+  },
+  "categories": [
+    "من يناير - أكتوبر 2019",
+    "2018",
+    "2017",
+    "2016",
+    "2015",
+    "2014"
+  ],
+  "series_data": [
+    {
+      "name": "Series 1",
+      "values": [
+        0,
+        2018.0,
+        2017.0,
+        2016.0,
+        2015.0,
+        2014.0
+      ],
+      "column_index": 0
+    },
+    {
+      "name": "Series 1",
+      "values": [
+        -0.0144,
+        0.0243,
+        -0.0023,
+        0.0349,
+        0.022,
+        0.02725
+      ],
+      "column_index": 1
+    }
+  ],
+  "text_representation": [
+    "CHART START - COLUMN_CLUSTERED (51)",
+    "Categories: 6",
+    "Category: Value (Percentage)",
+    "من يناير - أكتوبر 2019: 0 (0%)",
+    "2018: 2,018 (20.02%)",
+    "2017: 2,017 (20.01%)",
+    "2016: 2,016 (20.0%)",
+    "2015: 2,015 (19.99%)",
+    "2014: 2,014 (19.98%)",
+    "من يناير - أكتوبر 2019: -0.0144 (-15.69%)",
+    "2018: 0.0243 (26.49%)",
+    "2017: -0.0023 (-2.51%)",
+    "2016: 0.0349 (38.04%)",
+    "2015: 0.022 (23.98%)",
+    "2014: 0.02725 (29.7%)",
+    "CHART END"
+  ],
+  "extraction_metadata": {
+    "extracted_by": "Rateb1223",
+    "extraction_time": "2025-06-03T16:16:32",
+    "excel_index": 4
+  },
+  "visualization_path": "enhanced_extraction_test_Rateb1223_20250603_161632/charts_2d/chart_5_5.png"
+}
